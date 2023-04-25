@@ -1,0 +1,26 @@
+body{
+    background-size:cover;
+}
+.heading{
+    width:100%;
+    margin-top:0px;
+    font-size: 40px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+#button1{
+    background-color: rgb(62, 99, 101);
+    color:azure;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:20px;
+}
+canvas{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    margin-top: 0px;
+}
+@keyframes example{
+    from{box-shadow:3px 3px 40px rgb(60, 119, 118);}
+    to{box-shadow: 3px 3px 40px rgb(159, 152, 152)}
+    
+}
